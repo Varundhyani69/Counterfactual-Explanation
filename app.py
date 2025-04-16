@@ -16,7 +16,7 @@ st.set_page_config(layout="wide")
 
 # Set Seaborn style for better aesthetics
 sns.set_style("whitegrid")
-plt.rcParams.update({'font.size': 12, 'axes.titlesize': 16, 'axes.labelsize': 14})
+plt.rcParams.update({'font.size': 12, 'axes.titlesize': 16,'axes.labelsize': 14})
 
 # Load dataset
 df = pd.read_csv("adult.csv")
