@@ -79,7 +79,7 @@ with tab1:
     st.write("### 📋 Selected row data:")
     st.dataframe(decoded_sample)
 
-    # Generate Counterfactuals
+    # Generate Counterfactual
     cf = dice_exp.generate_counterfactuals(
         sample, total_CFs=5, desired_class="opposite", features_to_vary="all"
     )
