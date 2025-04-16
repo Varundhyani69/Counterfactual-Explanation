@@ -58,7 +58,7 @@ st.title("Counterfactual Explanation Web App")
 # Tab
 tab1, tab2 = st.tabs(["Counterfactuals", "EDA & Visualizations"])
 
-# Tab 1: Counterfactuals
+# Tab 1: Counterfactual
 with tab1:
     st.write("### 🎯 Model Accuracy:", accuracy)
 
