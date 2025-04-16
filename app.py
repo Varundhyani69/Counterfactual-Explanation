@@ -21,11 +21,11 @@ plt.rcParams.update({'font.size': 12, 'axes.titlesize': 16,'axes.labelsize': 14}
 # Load dataset
 df = pd.read_csv("adult.csv")
 
-# Drop rows with missing values
+# Drop rows with missing value
 df.replace('?', np.nan, inplace=True)
 df.dropna(inplace=True)
 
-# Encode categorical features
+# Encode categorical feature
 categorical_cols = df.select_dtypes(include='object').columns
 encoders = {}
 for col in categorical_cols:
