@@ -55,7 +55,7 @@ dice_exp = Dice(d, m)
 # Streamlit app
 st.title("Counterfactual Explanation Web App")
 
-# Tabs
+# Tab
 tab1, tab2 = st.tabs(["Counterfactuals", "EDA & Visualizations"])
 
 # Tab 1: Counterfactuals
